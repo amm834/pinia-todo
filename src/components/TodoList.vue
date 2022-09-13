@@ -13,6 +13,11 @@ const todos = todosStore.allTodos;
     <TodoListItem
         v-for="todo in todos" :key="todo.id"
         :todo="todo"
+        v-if="!todosStore.hasTodos"
     />
+    <div class="text-center text-secondary" v-else>
+      There is no tasks.
+    </div>
+
   </main>
 </template>

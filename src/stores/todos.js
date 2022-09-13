@@ -7,7 +7,9 @@ export const useTodosStore = defineStore('todos', () => {
     const todos = $ref([]);
     let nextId = 0;
 
+
     const allTodos = computed(() => todos)
+    const hasTodos = computed(() => todos.length <= 0)
 
     const addTodo = (task) => {
         if (task.length <= 0) {
@@ -27,8 +29,9 @@ export const useTodosStore = defineStore('todos', () => {
 
     return {
         allTodos,
+        hasTodos,
         addTodo,
-        toggleTodoFinishedById
+        toggleTodoFinishedById,
     }
 
 })
