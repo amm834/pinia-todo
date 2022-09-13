@@ -1,29 +1,5 @@
-# pinia-todo
+# Pinia Todo
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28297123-3f53-437a-bf83-cd99045f64e5/deploy-status)](https://app.netlify.com/sites/sparkly-salamander-20735b/deploys)
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-pnpm build
-```
+Migrating from VueX to Pinia 
