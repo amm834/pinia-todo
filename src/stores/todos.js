@@ -30,6 +30,7 @@ export const useTodosStore = defineStore('todos', () => {
     return {
         allTodos,
         hasTodos,
+
         addTodo,
         toggleTodoFinishedById,
     }
